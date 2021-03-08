@@ -1,6 +1,7 @@
 import React from 'react'
 import './styles/header.css';
 import TeslaLogo from '../assets/teslaLogoSmall.svg'
+import DehazeIcon from '@material-ui/icons/Dehaze';
 
 function Header() {
     return (
@@ -19,8 +20,8 @@ function Header() {
             </div>
 
             <div className="header__right">
-                <p>Shop</p>
                 <p>Tesla Account</p>
+                <i><DehazeIcon /></i>
             </div>
 
         </div>
