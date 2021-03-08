@@ -11,6 +11,7 @@ import ModelY from './assets/Desktop-ModelY.jpeg';
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg';
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg';
 import Item from './components/Item';
+import Button from './components/Button';
 
 
 function App() {
@@ -92,9 +93,6 @@ function App() {
           backgroundImg={Accessories}
           leftBtnTxt='More Information'
           leftBtnLink=''
-          rightBtnTxt='LEARN MORE'
-          rightBtnLink=''
-          twoButtons='true'
         />
       </div>
     </div>
