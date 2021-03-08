@@ -10,8 +10,8 @@ import ModelX from './assets/Desktop-ModelX.jpeg';
 import ModelY from './assets/Desktop-ModelY.jpeg';
 import SolarPanels from './assets/Desktop-SolarPanels.jpeg';
 import SolarRoof from './assets/Desktop-SolarRoof.jpeg';
+import Cyberpunk from './assets/Cyberpunk.jpg';
 import Item from './components/Item';
-import Button from './components/Button';
 
 
 function App() {
@@ -76,23 +76,25 @@ function App() {
           twoButtons='true'
         />
         <Item
-          tittle='Solar for New Roofs'
-          desc='Money-back guarantee'
+          tittle='Cyberpunk'
+          desc='Avaliable'
           descLink=''
-          backgroundImg={SolarRoof}
+          backgroundImg={Cyberpunk}
           leftBtnTxt='CUSTOM ORDER'
           leftBtnLink=''
           rightBtnTxt='LEARN MORE'
           rightBtnLink=''
           twoButtons='true'
+          penultimate
         />
         <Item
-          tittle='Accessories'
+          tittle='Solar for New Roofs'
           desc='Money-back guarantee'
           descLink=''
-          backgroundImg={Accessories}
+          backgroundImg={SolarRoof}
           leftBtnTxt='More Information'
           leftBtnLink=''
+          last
         />
       </div>
     </div>

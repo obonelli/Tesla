@@ -1,12 +1,15 @@
 import React from 'react'
 import './styles/button.css';
 
-const Button = ({ imp, text, link }) => {
+const Button = ({ imp, text, link, penultimate }) => {
     return (
-        <div className={`button ${imp == 'secondary' ? 'button__white' : ''}`}>
-            <a href={link}>
-                {text}
-            </a>
+        <div>
+            <div className={`button ${imp === 'secondary' ? 'button__white' : ''}`}>
+                <a href={link}>
+                    {text}
+                </a>
+            </div>
+
         </div>
     )
 }

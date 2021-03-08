@@ -2,8 +2,9 @@ import React from 'react'
 import Button from './Button';
 import './styles/item.css';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Footer from './Footer';
 
-function Item({ tittle, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons, first }) {
+function Item({ tittle, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, rightBtnTxt, rightBtnLink, twoButtons, first, last, penultimate }) {
     return (
         <div className="item" style={{
             backgroundImage: `url(${backgroundImg})`
@@ -25,6 +26,11 @@ function Item({ tittle, desc, descLink, backgroundImg, leftBtnTxt, leftBtnLink, 
                     {first && (
                         <div className="item__expand">
                             <ExpandMoreIcon />
+                        </div>
+                    )}
+                    {last && (
+                        <div>
+                            <Footer />
                         </div>
                     )}
                 </div>

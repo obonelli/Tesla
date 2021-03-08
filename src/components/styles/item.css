@@ -39,6 +39,7 @@
 
 .item__buttons {
   display: flex;
+  justify-content: center;
 }
 
 .item__expand {
