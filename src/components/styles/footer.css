@@ -8,13 +8,31 @@
   inline-size: 100%;
   justify-content: center;
   -webkit-box-pack: center;
-  width: 100vh;
+  width: 100%;
   margin-top: 1.5rem;
   margin-bottom: 0.8rem;
 }
 
 .footer__center {
   font-size: 14px;
+  color: white;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 640px) {
+  .footer__center {
+    font-size: 14px;
+    color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.footer__center_minWidth_800px {
+  font-size: 12.5px;
   color: white;
   flex: 1;
   display: flex;
